@@ -1,0 +1,27 @@
+module.exports = Object.freeze({
+    ADD:'Create',
+    EDIT:'Update',
+    DELETE:'Remove',
+    MODULE:[
+        {
+            id:1,
+            name:'Department'
+        },
+        {
+            id:2,
+            name:'Role'
+        },
+        {
+            id:3,
+            name:'User'
+        },
+        {
+            id:4,
+            name:'Access'
+        },
+        {
+            id:5,
+            name:'Facility'
+        }
+    ]
+});
